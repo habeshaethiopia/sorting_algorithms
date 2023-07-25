@@ -22,6 +22,7 @@ void quick_sort(int *arr, size_t n)
 void sort_q(int *arr, int l, int h, size_t n)
 {
 	int pivot;
+
 	if (l < h)
 	{
 		pivot = partition(arr, l, h, n);
