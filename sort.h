@@ -15,6 +15,7 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
+void shell_sort(int *array, size_t size);
 
 int partition(int *arr, int l, int h, size_t n);
 void quick_sort(int *arr, size_t n);
